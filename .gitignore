@@ -1,47 +1,78 @@
-# Windows image file caches
+#ignore win8, win8.1, linux, mac config file
+proj.winp8-xaml/
+proj.win8.1-universal/
+proj.linux/
+imgResource/
+game-server/node_modules
+cocos2d/
+bin/
+gen/
+server/
+local.properties
+
+#ignore thumbnails created by windows
 Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vspscc
+*_i.c
+*.i
+*.icf
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.opensdf
+*.sdf
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Ignore Android SDK, NDK, Eclipse plugin and ANT files
+local.properties
+proj.android/assets/
+proj.android/gen/
+proj.android/bin/
+proj.android/obj/
+proj.android/local.properties
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Ignore files build by airplay
+build_*_xcode/
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcscheme
+*.xcworkspacedata
+*.xcuserstate
+xcschememanagement.plist
+build/
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+# Ignore files built by bada
+.Simulator-Debug/
+.Target-Debug/
+.Target-Release/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Ignore files built by blackberry
+Simulator/
+Device-Debug/
+Device-Release/
+/proj.android/local.properties
+/proj.android/libs/armeabi/libcocos2dcpp.so
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
