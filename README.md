@@ -1,14 +1,18 @@
-Ò»¸ö¼òµ¥µÄTCP³¤Á¬½ÓÁÄÌìdemo
-¿Í»§¶Ë»ùÓÚcoco2dx£¬·şÎñÆ÷Ê¹ÓÃpomelo¿ò¼Ü
-
+ä¸€ä¸ªç®€å•çš„TCPé•¿è¿æ¥èŠå¤©demo.
+å®¢æˆ·ç«¯åŸºäºcoco2dxï¼ŒæœåŠ¡å™¨ä½¿ç”¨pomeloæ¡†.
+å…¼å®¹android mac win32å¤šå¹³å°.
+extendä¸‹é™„å¸¦ç›¸å…³åº“.
 ## Client
 
-ÒıÇæ°æ±¾3.10£¬¿½±´ÒıÇæÎÄ¼şÖÁ¸ùÄ¿Â¼±àÒë£¬ÔËĞĞ
+å¼•æ“ç‰ˆæœ¬3.10ï¼Œæ‹·è´å¼•æ“æ–‡ä»¶è‡³æ ¹ç›®å½•ç¼–è¯‘ï¼Œè¿è¡Œ.
 
 ## Server
 
-ÍøÒ×pomeloÊµÀı chatofpomelo-websocket-master  
-cd game-server 
-npm install 
-pomelo start 
+ç½‘æ˜“pomeloå®ä¾‹ chatofpomelo-websocket-master.
+gitåœ°å€ https://github.com/NetEase/chatofpomelo-websocket.git.
+
+
+cd game-server .
+npm install .
+pomelo start .
 
