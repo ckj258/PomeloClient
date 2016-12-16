@@ -60,8 +60,9 @@ void ChatDialog::showChatInfo(std::string username, std::string content){
     Layout *customItem = Layout::create();
     customItem->setLayoutType(Layout::Type::ABSOLUTE);
     customItem->setContentSize(Size(720,100));
-	Label* labelname = Label::createWithSystemFont(username,"arial",40);
+	Label* labelname = Label::createWithSystemFont(username,"arial",30);
 	labelname->setColor(Color3B::YELLOW);
+	labelname->setPosition(100, 0);
 	customItem->addChild(labelname);
     listView->pushBackCustomItem(customItem);
     listView->jumpToBottom();
