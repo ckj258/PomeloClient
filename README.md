@@ -1,5 +1,5 @@
 一个简单的TCP长连接聊天demo</br>
-客户端使用libpomelo2，基于coco2dx，服务器使用pomelo框</br>
+客户端使用libpomelo2，基于coco2dx，服务器使用pomelo</br>
 兼容android mac win32多平台</br>
 extend下附带相关库</br>
 ## Client
@@ -18,3 +18,4 @@ pomelo start</br>
 ##源码
 chatofpomelo-websocket-master  https://github.com/NetEase/chatofpomelo-websocket.git </br>
 libpomelo2  https://github.com/NetEase/libpomelo2</br>
+wiki https://ckj258.github.io/2016/12/13/pomelo-libpomelo/#more   
