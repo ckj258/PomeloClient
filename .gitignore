@@ -7,7 +7,7 @@ game-server/node_modules
 cocos2d/
 bin/
 gen/
-server/
+example/
 local.properties
 
 #ignore thumbnails created by windows
